@@ -29,7 +29,7 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a 
-                href="https://wa.me/15551234567" 
+                href="https://wa.me/593998975183" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary hover:bg-accent flex items-center justify-center transition-colors group"
@@ -109,8 +109,8 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-accent" />
-                <a href="tel:+15551234567" className="text-muted-foreground hover:text-accent transition-colors duration-300">
-                  +1 (555) 123-4567
+                <a href="tel:+593998975183" className="text-muted-foreground hover:text-accent transition-colors duration-300">
+                  +593 998975183
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -122,7 +122,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-accent flex-shrink-0 mt-1" />
                 <span className="text-muted-foreground">
-                  Tu ciudad, Tu país
+                  Guayaquil, Ecuador
                 </span>
               </li>
             </ul>
@@ -133,7 +133,7 @@ export function Footer() {
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-sm">
-              © 2024 NanoWindowsFilms. Todos los derechos reservados.
+              © 2026 NanoWindowsFilms. Todos los derechos reservados.
             </p>
             <p className="text-muted-foreground text-sm">
               Venta de láminas de sol premium

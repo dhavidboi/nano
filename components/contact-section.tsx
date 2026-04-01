@@ -11,19 +11,19 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Teléfono",
-    value: "+1 (555) 123-4567",
-    link: "tel:+15551234567"
+    value: "+593 998975183",
+    link: "tel:+59399897518"
   },
   {
     icon: MessageCircle,
     title: "WhatsApp",
-    value: "+1 (555) 123-4567",
-    link: "https://wa.me/15551234567"
+    value: "+593 998975183",
+    link: "https://wa.me/59399897518"
   },
   {
     icon: MapPin,
     title: "Ubicación",
-    value: "Av. Principal #123, Ciudad",
+    value: "Av. Principal #123, Guayaquil",
     link: "#"
   },
   {
@@ -47,7 +47,7 @@ export function ContactSection() {
     const whatsappMessage = encodeURIComponent(
       `¡Hola! Me interesa cotizar láminas de sol.\n\nNombre: ${formData.name}\nTeléfono: ${formData.phone}\nVehículo: ${formData.vehicle}\nMensaje: ${formData.message}`
     )
-    window.open(`https://wa.me/15551234567?text=${whatsappMessage}`, "_blank")
+    window.open(`https://wa.me/59399897518?text=${whatsappMessage}`, "_blank")
   }
 
   return (
@@ -92,7 +92,7 @@ export function ContactSection() {
                   <Input
                     id="phone"
                     type="tel"
-                    placeholder="+1 (555) 000-0000"
+                    placeholder="+593 123456789"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     required
