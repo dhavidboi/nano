@@ -47,7 +47,7 @@ export function ContactSection() {
     const whatsappMessage = encodeURIComponent(
       `¡Hola! Me interesa cotizar láminas de sol.\n\nNombre: ${formData.name}\nTeléfono: ${formData.phone}\nVehículo: ${formData.vehicle}\nMensaje: ${formData.message}`
     )
-    window.open(`https://wa.me/59399897518?text=${whatsappMessage}`, "_blank")
+    window.open(`https://wa.me/593998975183?text=${whatsappMessage}`, "_blank")
   }
 
   return (
