@@ -46,7 +46,7 @@ export function ServicesSection() {
             Soluciones completas para tu vehículo
           </h2>
           <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-            Ofrecemos láminas de sol de alta calidad con los más altos 
+            Ofrecemos láminas de seguridad de alta calidad con los más altos 
             estándares del mercado para proteger tu vehículo.
           </p>
         </div>

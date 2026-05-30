@@ -20,11 +20,11 @@ export function Footer() {
           <div className="lg:col-span-2">
             <a href="/" className="inline-block mb-4">
               <span className="font-serif text-2xl font-bold text-foreground">
-                Nano<span className="text-accent">Windows</span>Films
+                Nano<span className="text-accent">Windows</span>Film
               </span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-md mb-6">
-              Venta de láminas de sol premium para vehículos. 
+              Venta de láminas de seguridad premium para vehículos. 
               Calidad y garantía en cada producto.
             </p>
             <div className="flex gap-4">
@@ -115,8 +115,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-accent" />
-                <a href="mailto:info@nanowindowsfilms.com" className="text-muted-foreground hover:text-accent transition-colors duration-300">
-                  info@nanowindowsfilms.com
+                <a href="mailto:info@nanowindowsfilm.com" className="text-muted-foreground hover:text-accent transition-colors duration-300">
+                  info@nanowindowsfilm.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -133,10 +133,10 @@ export function Footer() {
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-sm">
-              © 2026 NanoWindowsFilms. Todos los derechos reservados.
+              © 2026 NanoWindowsFilm. Todos los derechos reservados.
             </p>
             <p className="text-muted-foreground text-sm">
-              Venta de láminas de sol premium
+              Venta de láminas de seguridad en Ecuador
             </p>
           </div>
         </div>

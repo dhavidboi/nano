@@ -23,7 +23,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Ubicación",
-    value: "Av. Principal #123, Guayaquil",
+    value: "Atención personalizada en todo Guayaquil",
     link: "#"
   },
   {

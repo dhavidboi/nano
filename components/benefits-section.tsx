@@ -20,7 +20,7 @@ export function BenefitsSection() {
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
               <Image
                 src="/images/installation.jpg"
-                alt="Láminas de sol de alta calidad"
+                alt="Láminas de seguridad de alta calidad"
                 fill
                 className="object-cover"
               />
@@ -39,7 +39,7 @@ export function BenefitsSection() {
               Calidad y compromiso en cada producto
             </h2>
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-5 sm:mb-6">
-              En NanoWindowsFilms nos dedicamos a ofrecer las mejores láminas de sol 
+              En NanoWindowsFilm nos dedicamos a ofrecer las mejores láminas de seguridad 
               del mercado. Nuestro compromiso es brindarte productos de calidad superior 
               y un servicio excepcional.
             </p>

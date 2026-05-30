@@ -18,9 +18,10 @@ export function HeroSection() {
     <section className="relative min-h-screen flex flex-col">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
+        {/* SEO: Modificado el atributo alt para incluir palabras clave del producto y ubicación */}
         <Image
           src="/images/hero-car.jpg"
-          alt="Carro con láminas de sol profesionales"
+          alt="Instalación de láminas de seguridad automotrices y control solar en Guayaquil"
           fill
           className="object-cover"
           priority
@@ -32,24 +33,29 @@ export function HeroSection() {
       <div className="flex-1 flex items-center container mx-auto px-4 relative z-10 pt-20 md:pt-24">
         <div className="max-w-3xl pb-48 md:pb-36">
           <p className="text-accent text-xs sm:text-sm font-medium tracking-wider uppercase mb-2 sm:mb-3">
-            Láminas de sol premium
+            Láminas de seguridad premium en Ecuador
           </p>
+          
+          {/* SEO: El H1 ahora ataca directamente la intención de búsqueda local */}
           <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground leading-tight mb-3 sm:mb-4 text-balance">
-            Protección y estilo para tu vehículo
+            Láminas de seguridad y control térmico para tu vehículo en Guayaquil
           </h1>
+          
+          {/* SEO: Redacción optimizada para incluir zonas de cobertura de forma natural */}
           <p className="text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed mb-5 sm:mb-6 max-w-xl">
-            Venta de láminas de sol de alta calidad. 
-            Protege tu inversión, reduce el calor y viaja con privacidad.
+            Venta de láminas de seguridad de alta calidad. Protege el interior de tu auto del intenso clima de Guayaquil, Samborondón y Durán. Reduce el calor y viaja con total privacidad.
           </p>
+          
           <div className="flex flex-col sm:flex-row gap-3">
             <Button size="lg" asChild className="text-sm w-full sm:w-auto h-11 sm:h-12">
               <a 
                 href="#contacto" 
                 onClick={(e) => handleSmoothScroll(e, "#contacto")}
                 className="flex items-center justify-center gap-2"
+                title="Solicitar cotización de láminas de sol en Guayaquil"
               >
                 Solicitar Cotización
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </a>
             </Button>
             <Button size="lg" variant="outline" asChild className="text-sm bg-transparent text-foreground border-foreground/30 hover:bg-foreground/10 w-full sm:w-auto h-11 sm:h-12">
@@ -57,6 +63,7 @@ export function HeroSection() {
                 href="#productos"
                 onClick={(e) => handleSmoothScroll(e, "#productos")}
                 className="flex items-center justify-center"
+                title="Ver catálogo de láminas de sol Series AK y BK"
               >
                 Ver Productos
               </a>

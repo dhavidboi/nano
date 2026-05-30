@@ -22,13 +22,16 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link href="/" className="flex items-center gap-2">
+          
+          {/* SEO: Si es la página principal, el logo puede llevar un h1 oculto o una etiqueta fuerte para branding */}
+          <Link href="/" className="flex items-center gap-2" aria-label="NanoWindowsFilm - Inicio">
             <span className="font-serif text-xl md:text-2xl font-bold tracking-tight text-foreground">
-              Nano<span className="text-accent">Windows</span>Films
+              Nano<span className="text-accent">Windows</span>Film
             </span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
+          {/* Menú de navegación de escritorio */}
+          <nav className="hidden md:flex items-center gap-8" aria-label="Navegación principal">
             <a 
               href="#servicios" 
               onClick={(e) => handleSmoothScroll(e, "#servicios")}
@@ -65,34 +68,38 @@ export function Header() {
                 href="#contacto" 
                 onClick={(e) => handleSmoothScroll(e, "#contacto")}
                 className="flex items-center gap-2"
+                title="Solicitar cotización de películas de control solar"
               >
-                <Phone className="w-4 h-4" />
+                <Phone className="w-4 h-4" aria-hidden="true" />
                 Cotizar Ahora
               </a>
             </Button>
           </div>
 
+          {/* Botón menú móvil */}
           <button
             className="md:hidden p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
+            aria-label={isMenuOpen ? "Cerrar menú de navegación" : "Abrir menú de navegación"}
+            aria-expanded={isMenuOpen}
           >
             {isMenuOpen ? (
-              <X className="w-6 h-6 text-foreground" />
+              <X className="w-6 h-6 text-foreground" aria-hidden="true" />
             ) : (
-              <Menu className="w-6 h-6 text-foreground" />
+              <Menu className="w-6 h-6 text-foreground" aria-hidden="true" />
             )}
           </button>
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Menú Móvil */}
       <div 
         className={`md:hidden bg-background border-b border-border overflow-hidden transition-all duration-300 ease-in-out ${
           isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <nav className="container mx-auto px-4 py-4 flex flex-col gap-4">
+        {/* SEO: Añadido aria-label para diferenciar el nav móvil */}
+        <nav className="container mx-auto px-4 py-4 flex flex-col gap-4" aria-label="Navegación móvil">
           <a 
             href="#servicios" 
             className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors duration-300"
@@ -126,8 +133,9 @@ export function Header() {
               href="#contacto" 
               onClick={(e) => handleSmoothScroll(e, "#contacto")}
               className="flex items-center justify-center gap-2"
+              title="Solicitar cotización de películas de control solar"
             >
-              <Phone className="w-4 h-4" />
+              <Phone className="w-4 h-4" aria-hidden="true" />
               Cotizar Ahora
             </a>
           </Button>
