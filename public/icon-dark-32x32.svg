@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img">
+  <title>NanoWindowsFilm</title>
+  <desc>Favicon light mode: ventana de auto con lámina solar azul clara</desc>
+
+  <defs>
+    <clipPath id="glass">
+      <path d="M 2,9 Q 3,2 7,1.5 L 25,1.5 Q 29,1.5 30,8 L 31,22 L 1,22 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Door body -->
+  <rect x="0" y="10" width="32" height="22" rx="2" fill="#1a1a2e"/>
+
+  <!-- Glass shape base -->
+  <path d="M 2,9 Q 3,2 7,1.5 L 25,1.5 Q 29,1.5 30,8 L 31,22 L 1,22 Z"
+        fill="#cce4ff"/>
+
+  <!-- Solar film layers (light tint) -->
+  <g clip-path="url(#glass)">
+    <rect x="0" y="0" width="32" height="24" fill="#a8d4f5" fill-opacity="0.7"/>
+    <rect x="0" y="0" width="32" height="7"  fill="#7ab8e8" fill-opacity="0.6"/>
+    <line x1="-2" y1="24" x2="16" y2="-2"  stroke="#ffffff" stroke-width="6" stroke-opacity="0.35"/>
+    <line x1="10" y1="26" x2="34" y2="-2"  stroke="#ffffff" stroke-width="4" stroke-opacity="0.25"/>
+    <line x1="18" y1="26" x2="38" y2="0"   stroke="#5aa8e0" stroke-width="8" stroke-opacity="0.15"/>
+  </g>
+
+  <!-- Glass frame -->
+  <path d="M 2,9 Q 3,2 7,1.5 L 25,1.5 Q 29,1.5 30,8 L 31,22 L 1,22 Z"
+        fill="none" stroke="#2a7ab8" stroke-width="0.7"/>
+
+  <!-- Roof rubber seal -->
+  <line x1="7" y1="1.5" x2="25" y2="1.5" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Bottom window seal -->
+  <rect x="0.5" y="21" width="31" height="2" rx="0.8" fill="#1a1a2e"/>
+
+  <!-- Door line -->
+  <line x1="0" y1="26" x2="32" y2="26" stroke="#2a2a4a" stroke-width="0.8"/>
+
+  <!-- Door handle -->
+  <rect x="20" y="27.5" width="8" height="2" rx="1" fill="#2a2a4a" stroke="#3a3a5a" stroke-width="0.4"/>
+
+  <!-- N monogram (dark on light glass) -->
+  <g transform="translate(16, 12)">
+    <rect x="-5.5" y="-5.5" width="2.2" height="11" rx="0.4" fill="#0a3a6a" fill-opacity="0.9"/>
+    <rect x="3.3"  y="-5.5" width="2.2" height="11" rx="0.4" fill="#0a3a6a" fill-opacity="0.9"/>
+    <polygon points="-5.5,-5.5 -3,-5.5 5.5,5.5 3.3,5.5 -5.5,-3.2" fill="#0a3a6a" fill-opacity="0.9"/>
+  </g>
+
+</svg>
