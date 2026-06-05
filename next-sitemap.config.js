@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://nanowindowsfilm.com',
+  siteUrl: 'https://www.nanowindowsfilm.com',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   exclude: ['/server-sitemap.xml'],
