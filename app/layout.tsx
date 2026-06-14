@@ -14,20 +14,32 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'NanoWindowsFilm | Láminas de Seguridad Premium para Vehículos en Guayaquil',
-  description: 'Venta e instalación de láminas de seguridad de alta calidad en Guayaquil, Durán y Samborondón. Protección UV, control de temperatura y privacidad (Series AK/BK).',
+  title: 'NanoWindowsFilm | Láminas de Seguridad, Accesorios y Protección Vehicular en Guayaquil',
+  description: 'Venta de láminas de seguridad automotriz, accesorios de instalación y seguridad vehicular en Guayaquil, Samborondón y Durán. Espátulas profesionales, cintas nano antideslizantes, seguros para computadoras y brazos. Series AK y BK con protección UV hasta 100%.',
   generator: 'v0.app',
-  
+
   keywords: [
-    "láminas de sol Guayaquil", 
-    "polarizado de autos Guayaquil", 
+    // Láminas — términos ya posicionados
+    "láminas de sol Guayaquil",
+    "polarizado de autos Guayaquil",
     "láminas de seguridad Samborondón",
-    "control solar vehículos Ecuador", 
+    "control solar vehículos Ecuador",
     "NanoWindowsFilm Guayaquil",
-    "Series AK", 
-    "Series BK"
+    "Series AK", "Series BK",
+    // Accesorios instalación — poca competencia local
+    "espátulas instalación láminas Guayaquil",
+    "herramientas polarizado autos Ecuador",
+    "cinta antideslizante estribo auto Guayaquil",
+    "protector filo puerta auto Ecuador",
+    "nano carbón transparente puerta vehículo",
+    // Seguridad vehicular
+    "seguros computadora vehicular Guayaquil",
+    "brazos pluma pantalla auto Ecuador",
+    "tuercas cónicas computadora vehículo",
+    "pernos seguridad pantalla auto Guayaquil",
+    "accesorios seguridad automotriz Ecuador",
   ],
-  
+
   metadataBase: new URL('https://www.nanowindowsfilm.com'),
 
   alternates: {
@@ -48,26 +60,26 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: 'NanoWindowsFilm | Láminas de Seguridad Premium',
-    description: 'Protección UV, control de temperatura y privacidad para tu vehicle con nuestras Series AK y BK.',
+    title: 'NanoWindowsFilm | Láminas, Accesorios y Seguridad Vehicular en Guayaquil',
+    description: 'Todo para proteger tu vehículo en Guayaquil: láminas de seguridad Series AK/BK, espátulas de instalación, cintas nano antideslizantes y sistemas de fijación para computadoras vehiculares.',
     url: 'https://www.nanowindowsfilm.com',
     siteName: 'NanoWindowsFilm',
-    locale: 'es_ES',
+    locale: 'es_EC',
     type: 'website',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Láminas de seguridad premium NanoWindowsFilm instaladas en un vehículo',
+        alt: 'NanoWindowsFilm – Láminas de seguridad y accesorios automotrices en Guayaquil, Ecuador',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'NanoWindowsFilm | Láminas de Seguridad Premium',
-    description: 'Venta de láminas de Seguridad de alta calidad. Protección UV y control de temperatura para tu auto.',
+    title: 'NanoWindowsFilm | Láminas y Accesorios Automotrices en Guayaquil',
+    description: 'Láminas de seguridad, espátulas profesionales, cintas nano antideslizantes y seguros vehiculares. Cobertura en Guayaquil, Samborondón y Durán.',
     images: ['/og-image.jpg'],
   },
 
