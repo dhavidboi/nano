@@ -25,7 +25,7 @@ export function Header() {
           
           {/* SEO: Si es la página principal, el logo puede llevar un h1 oculto o una etiqueta fuerte para branding */}
           <Link href="/" className="flex items-center gap-2" aria-label="NanoWindowsFilm - Inicio">
-            <span className="font-serif text-xl md:text-2xl font-bold tracking-tight text-foreground">
+            <span className="font-sans text-xl md:text-2xl font-bold tracking-tight text-foreground">
               Nano<span className="text-accent">Windows</span>Film
             </span>
           </Link>

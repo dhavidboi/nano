@@ -35,7 +35,7 @@ export function HeroSection() {
             Protección automotriz premium · Guayaquil, Ecuador
           </p>
 
-          <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground leading-tight mb-3 sm:mb-4 text-balance">
+          <h1 className="font-sans text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground leading-tight mb-3 sm:mb-4 text-balance">
             Láminas de seguridad y accesorios automotrices en Guayaquil
           </h1>
 

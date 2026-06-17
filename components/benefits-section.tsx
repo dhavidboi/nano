@@ -36,7 +36,7 @@ export function BenefitsSection() {
             <p className="text-accent text-xs sm:text-sm font-medium tracking-wider uppercase mb-2 sm:mb-3">
               ¿Por Qué Elegirnos?
             </p>
-            <h2 className="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4 text-balance">
+            <h2 className="font-sans text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4 text-balance">
               Todo lo que necesita tu vehículo, en un solo lugar
             </h2>
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-5 sm:mb-6">
@@ -56,17 +56,17 @@ export function BenefitsSection() {
 
             <div className="flex items-center gap-4 sm:gap-6 pt-4 border-t border-border">
               <div className="text-center">
-                <p className="font-serif text-xl sm:text-2xl md:text-3xl font-bold text-foreground">20+</p>
+                <p className="font-sans text-xl sm:text-2xl md:text-3xl font-bold text-foreground">20+</p>
                 <p className="text-[10px] sm:text-xs text-muted-foreground">Productos disponibles</p>
               </div>
               <div className="w-px h-8 sm:h-10 bg-border" />
               <div className="text-center">
-                <p className="font-serif text-xl sm:text-2xl md:text-3xl font-bold text-foreground">3</p>
+                <p className="font-sans text-xl sm:text-2xl md:text-3xl font-bold text-foreground">3</p>
                 <p className="text-[10px] sm:text-xs text-muted-foreground">Categorías</p>
               </div>
               <div className="w-px h-8 sm:h-10 bg-border" />
               <div className="text-center">
-                <p className="font-serif text-xl sm:text-2xl md:text-3xl font-bold text-foreground">5</p>
+                <p className="font-sans text-xl sm:text-2xl md:text-3xl font-bold text-foreground">5</p>
                 <p className="text-[10px] sm:text-xs text-muted-foreground">Años garantía</p>
               </div>
             </div>

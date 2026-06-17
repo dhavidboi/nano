@@ -530,7 +530,7 @@ export function ProductsSection() {
           <p className="text-accent text-xs sm:text-sm font-medium tracking-wider uppercase mb-3 md:mb-4">
             Nuestros Productos
           </p>
-          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 md:mb-6 text-balance">
+          <h2 className="font-sans text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 md:mb-6 text-balance">
             Catálogo completo
           </h2>
           <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">

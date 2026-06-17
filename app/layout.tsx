@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Playfair_Display } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
@@ -8,15 +8,11 @@ const inter = Inter({
   variable: "--font-inter"
 });
 
-const playfair = Playfair_Display({ 
-  subsets: ["latin"],
-  variable: "--font-playfair"
-});
 
 export const metadata: Metadata = {
   title: 'NanoWindowsFilm | Láminas de Seguridad, Accesorios y Protección Vehicular en Guayaquil',
   description: 'Venta de láminas de seguridad automotriz, accesorios de instalación y seguridad vehicular en Guayaquil, Samborondón y Durán. Espátulas profesionales, cintas nano antideslizantes, seguros para computadoras y brazos. Series AK y BK con protección UV hasta 100%.',
-  generator: 'v0.app',
+  generator: 'NanoWindowsFilm',
 
   keywords: [
     // Láminas — términos ya posicionados
@@ -49,7 +45,6 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-    nocache: true,
     googleBot: {
       index: true,
       follow: true,
@@ -108,7 +103,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>

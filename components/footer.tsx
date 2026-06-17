@@ -19,7 +19,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <a href="/" className="inline-block mb-4">
-              <span className="font-serif text-2xl font-bold text-foreground">
+              <span className="font-sans text-2xl font-bold text-foreground">
                 Nano<span className="text-accent">Windows</span>Film
               </span>
             </a>
